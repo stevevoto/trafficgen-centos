@@ -3,7 +3,7 @@
 2. **ssh** to your device with your username/passwd and sudu su to root
 3. Connect your Desktop to the internet and make sure **DNS** is configured properly
 4. IMPORTANT you must run " ***yum -y install wget** " as root from linux to download the installer.
-5. From Linux download **wget** https://github.com/stevevoto/trafficgen-centos/raw/main/CentOsTrafficGenerator.sh
+5. Linux download wget https://github.com/stevevoto/trafficgen-centos/raw/main/CentOsTrafficGenerator.sh
 7. After downloading type " **chmod +x CentOsTrafficGenerator.sh** "
 8. Run **./CentOsTrafficGenerator.sh**
 9. When Complete the server will **reboot**
