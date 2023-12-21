@@ -4,9 +4,10 @@
 3. Connect your Desktop to the internet and make sure **DNS** is configured properly
 4. IMPORTANT you must run " ***yum -y install wget** " as root from linux to download the installer.
 5. From Linux with root privledges download this installer. **wget** https://github.com/stevevoto/trafficgen-centos/raw/main/CentOsTrafficGenerator.sh
-6. After downloading type " **chmod +x CentOsTrafficGenerator.sh** " 
-7. When Complete the server will **reboot**
-8. Login as root
-9. When reboot is complete check service is runnning "sudo systemctl status web-traffic-gen.service"
-10. If services is not running run the following command: sudo systemctl start web-traffic-gen.service
-11. If service is runnining you can do a tcpdump and watch connections
+6. After downloading type " **chmod +x CentOsTrafficGenerator.sh** "
+7. Run **./CentOsTrafficGenerator.sh**
+8. When Complete the server will **reboot**
+9. Login as root
+10. When reboot is complete check service is runnning "sudo systemctl status web-traffic-gen.service"
+11. If services is not running run the following command: sudo systemctl start web-traffic-gen.service
+12. If service is runnining you can do a tcpdump and watch connections
