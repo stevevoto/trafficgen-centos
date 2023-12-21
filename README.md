@@ -1,5 +1,5 @@
 # trafficgen-centos
-Download and install the CentOS-7-min located here [https://releases.ubuntu.com/18.04/ubuntu-18.04.6-desktop-amd64.iso.](http://mirror.metrocast.net/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso)
+Download and install the CentOS-7-min located here http://mirror.metrocast.net/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso
 ssh to your device with your username/passwd and sudu su to root
 Connect your Desktop to the internet and make sure DNS is configured properly
 From Linux with root privledges download this installer. 
